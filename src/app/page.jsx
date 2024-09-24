@@ -16,7 +16,7 @@ export default function Home() {
           <Button url={''} text={"See our work"}/>
       </div>
       <div className={styles.item}>
-         <Image src="/hero.png" alt="Hero Image" className={styles.img}  width={400} height={400} />
+         <Image src="/hero.png" alt="Hero Image" className='basicAnimatedImage'  fill={true} />
       </div>
     </div>
   );

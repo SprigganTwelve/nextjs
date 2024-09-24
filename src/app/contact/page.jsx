@@ -12,7 +12,7 @@ const Contact = () => {
                     src="/contact.png" 
                     fill={true}
                     alt='Contact'
-                    className={styles.image}/>
+                    className='basicAnimatedImage'/>
                 </div>
                 <form className={styles.form}>
                     <input type="text" placeholder='name' className={styles.input} />

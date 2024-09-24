@@ -38,16 +38,3 @@
     font-weight: bold;
 }
 
-.image{
-    object-fit: contain;
-    animation: move 3s infinite alternate;
-}
-
-@keyframes move {
-    from{
-        transform: translateY(-15px);
-    }
-    to{
-        transform: translateY(0) scale(1.03);
-    }
-}
